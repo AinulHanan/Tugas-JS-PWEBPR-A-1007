@@ -1,0 +1,79 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 58px;
+}
+
+.box {
+    background: #DBDBDB;
+    width: 610px;
+    border-radius: 30px;
+    height: 329px;
+}
+
+#image {
+    margin: auto;
+    margin-top: -50px;
+    
+}
+
+.content {
+    margin-top: -18px;
+    position: relative;
+}
+
+#result {
+    background: #FEEEE2;
+    width: 475px;
+    height: 56px;
+    border-radius: 20px;
+    margin: auto;
+    display: grid;
+    place-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 29px;
+    gap: 25px;
+}
+
+button {
+    width: 157px;
+    height: 41px;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+}
+
+#Yes_Btn {
+    background: #6FD240;
+    color: black;
+}
+
+#No_Btn {
+    background: #E12E2E;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
