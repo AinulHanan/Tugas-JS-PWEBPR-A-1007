@@ -8,7 +8,7 @@ const No_Btn = document.getElementById("No_Btn");
 
 Yes_Btn.addEventListener("click", () => {
   title.textContent = "Anda Berbohong!";
-  image.src = "assets/teknisi.png";
+  image.src = "Assets/Teknisi.png";
   container.style.backgroundColor = "#E12E2E";
   result.textContent = "Anda adalah seorang Teknisi";
   choice.style.display = "none";
@@ -16,7 +16,7 @@ Yes_Btn.addEventListener("click", () => {
 
 No_Btn.addEventListener("click", () => {
   title.textContent = "Anda Benar!";
-  image.src = "assets/mahasiswa.png";
+  image.src = "Assets/Mahasiswa.png";
   container.style.backgroundColor = "#6FD240";
   result.textContent = "Anda adalah seorang Mahasiswa";
   choice.style.display = "none";
